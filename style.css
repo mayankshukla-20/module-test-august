@@ -275,7 +275,7 @@ font-size: 14px;
 font-weight: 400;
 }
 .horizontal-line{
-    width: 90%;
+    width: 100%;
     border-bottom: 1px solid rgba(0, 0, 0, 0.20);
     margin-inline: auto;
 }
@@ -437,9 +437,10 @@ line-height: 150%; /* 24px */
     background-color: #FFF;
     border-radius: 9px;
     /* border: 2px solid var(--primaryskyblue, #2F80ED); */
-    width: 35%;
+    width: 40%;
     padding-bottom: 20px;
-    padding-left: 20px;
+    padding-left: 40px;
+    padding-right: 50px;
     transition: border 0.8s ease;
 
 }
