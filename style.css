@@ -562,17 +562,26 @@ letter-spacing: -0.54px;
     .nav-right>p,.arrow{
         display: none;
     }
+    nav{
+        width: 100vw;
+    }
     .hero-section,.forms{
         flex-direction: column;
     }
     .hero-right{
-        margin-top: 100px;
+        margin-top: 250px;
         margin-inline: auto;
     }
     .beginner{
         width: 90%;
         margin-top: 50px;
         margin-inline: auto;
+    }
+    .rectangle-1{
+        flex-direction: column;
+    }
+    .rectangle-1>.content{
+        justify-content: space-between;
     }
     .images,.placement-button{
         width: 100%;
