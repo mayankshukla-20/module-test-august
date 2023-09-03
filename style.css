@@ -564,6 +564,7 @@ letter-spacing: -0.54px;
     }
     nav{
         width: 100vw;
+        flex-direction: column;
     }
     .hero-section,.forms{
         flex-direction: column;
@@ -593,6 +594,9 @@ letter-spacing: -0.54px;
     }
     .burger{
         display: inline;
+    }
+    .hero-left>p{
+        font-size: 10px;
     }
 }
 
